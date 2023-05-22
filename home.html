@@ -11,347 +11,489 @@
 </head>
 <body>
     <!-- Header Start -->
-    <div class="header-area">
+    <div class="header py-3">
         <div class="container">
-            <div class="row align-items-center my-3">
-                <div class="col-3">
-                    <div class="logo img-fluid">
-                        <a href=""><img src="assets/img/logo.png" alt=""></a>
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="logo">
+                        <a href="index.html"><img src="./assets/img/logo.png" alt=""></a>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-md-7">
                     <div class="social-media">
-                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href=""><i class="fa-brands fa-twitter"></i></a>
-                        <a href=""><i class="fa-brands fa-skype"></i></a>
-                        <a href=""><i class="fa-solid fa-rss"></i></a>
+                        <div class="single-icon mx-2">
+                            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                        </div>
+                        <div class="single-icon mx-2">
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                        <div class="single-icon mx-2">
+                            <a href=""><i class="fa-brands fa-skype"></i></a>
+                        </div>
+                        <div class="single-icon mx-2">
+                            <a href=""><i class="fa-solid fa-rss"></i></a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-3">
-                    <div class="cta">
-                        <a href=""><i class="fa-solid fa-phone"></i></a> <span class="link-secondary">+800 123 4567</span>
-                    </div>
+                <div class="col-md-3">
+                  <div class="cta">
+                    <span><i class="fa-solid fa-mobile-retro"></i> +800 123 4567</span>
+                  </div>
                 </div>
             </div>
-            <nav>
-                <div class="menu">
-                    <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">About Us</a>
-                            <ul class="submenu">
-                                <li><a href="">Conditions & Treatments</a></li>
-                                <li><a href="">Find a Doctor</a></li>
-                                <li><a href="">For Patients & Families</a></li>
-                                <li><a href="">Get My Medical Records</a></li>
-                                <li><a href="">Medicare Plan Finder</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="">Medical</a></li>
-                        <li><a href="">Services</a></li>
-                        <li><a href="">Our Doctors </a></li>
-                        <li><a href="">Appointments</a></li>
-                        <li><a href="">Locations</a></li>
-                        <li><a href="">Features</a></li>
-                        <li class="searchbar">
-                            <input class="search" type="text" placeholder="search"><i class="fa-solid fa-magnifying-glass search-btn link-secondary text-light"></i> 
-                        </li>
-                    </ul>
-                </div>
-                
-            </nav>
         </div>
+    </div>
+    <div class="container">
+        <nav class="navbar-expand-lg bg-body-tertiary menu">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 mainmenu">
+                  <li class="nav-item">
+                    <a class="nav-link active br-1" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle br-1" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        About Us
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item br-1">
+                    <a class="nav-link" href="#">Our Doctors</a>
+                  </li>
+                  <li class="nav-item br-1">
+                    <a class="nav-link br-1" href="#">Appointments</a>
+                  </li>
+                  <li class="nav-item br-1">
+                    <a class="nav-link" href="#">Locations</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                  </li>
+                </ul>
+                <form class="d-flex searchbar" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn" type="submit"><img src="./assets/img/search.svg" alt=""></button>
+                </form>
+              </div>
+            </div>
+          </nav>
     </div>
     <!-- Header End -->
-    <!-- Slider Start -->
-    <div class="slider-area">
-        <img src="./assets/img/slider-image.jpg" alt="">
-        <div class="container">
-            <div class="slider-title">
-                <h2 class="link-secondary">we care about <br> every <span><strong>PATIENTS</strong></span></h2>
-            </div>
+    <!-- Hero Start -->
+    <section class="hero-area">
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-    </div>
-    <!-- Slider End -->
-    <!-- Service Start -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/img/slider-image.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>we care about <br>
+                every<span>PATIENTS</span></h2>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/slider-image.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>we care about <br>
+                every<span>PATIENTS</span></h2>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/slider-image.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>we care about <br>
+                every<span>PATIENTS</span></h2>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
     <div class="service-items">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="single-service">
-                        <h2>Dental Center</h2>
-                        <p>rrocedures & radiography</p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="single-service">
-                        <h2>Neonatal Care</h2>
-                        <p>extracorporeal membrane</p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="single-service">
-                        <h2>Cancer Support</h2>
-                        <p>diagnosis of cancer & cancer</p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="single-service">
-                        <h2>Cardiology</h2>
-                        <p>cath lab, EP lab, rehabilitation</p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="single-service">
-                        <h2>Orthopedics</h2>
-                        <p>joint, spine and back injuries</p>
-                    </div>
-                </div>
-            </div>
-            <div class="tagline text-center my-5">
-                <h2>We are extremely proud of the pioneering clinic.</h2>
-                <p>Proin molestie, felis in pellentesque malesuada, quam ligula sagittis.</p>
-            </div>
-        </div>
-    </div>
-    <!-- Service End -->
-    <!-- department Start -->
+      <div class="container">
+          <div class="row">
+              <div class="col">
+                  <div class="single-service">
+                      <h2>Dental Center</h2>
+                      <p>rrocedures &amp; radiography</p>
+                  </div>
+              </div>
+              <div class="col">
+                  <div class="single-service">
+                      <h2>Neonatal Care</h2>
+                      <p>extracorporeal membrane</p>
+                  </div>
+              </div>
+              <div class="col">
+                  <div class="single-service">
+                      <h2>Cancer Support</h2>
+                      <p>diagnosis of cancer &amp; cancer</p>
+                  </div>
+              </div>
+              <div class="col">
+                  <div class="single-service">
+                      <h2>Cardiology</h2>
+                      <p>cath lab, EP lab, rehabilitation</p>
+                  </div>
+              </div>
+              <div class="col">
+                  <div class="single-service">
+                      <h2>Orthopedics</h2>
+                      <p>joint, spine and back injuries</p>
+                  </div>
+              </div>
+          </div>
+          <div class="tagline text-center my-5">
+              <h2>We are extremely proud of the pioneering clinic.</h2>
+              <p>Proin molestie, felis in pellentesque malesuada, quam ligula sagittis.</p>
+          </div>
+      </div>
+  </div>
+    <!-- Hero END -->
     <div class="department-area py-3">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="single-dept text-center">
-                        <div class="dept-ico">
-                            <img src="./assets/img/icon-01.jpg" alt="">
-                        </div>
-                        <div class="dept-txt">
-                            <h2>Cardiothoracic Surgery</h2>
-                            <p>Sed ut perspiciatis unde omiste natus error sit voluptaccusantium doloreue..</p>
-                        </div>
-                    </div>
+      <div class="container">
+          <div class="row">
+              <div class="col">
+                  <div class="single-dept text-center">
+                      <div class="dept-ico">
+                          <img src="./assets/img/icon-01.jpg" alt="">
+                      </div>
+                      <div class="dept-txt">
+                          <h2>Cardiothoracic Surgery</h2>
+                          <p>Sed ut perspiciatis unde omiste natus error sit voluptaccusantium doloreue..</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col">
+                  <div class="single-dept text-center">
+                      <div class="dept-ico">
+                          <img src="./assets/img/icon-02.jpg" alt="">
+                      </div>
+                      <div class="dept-txt">
+                          <h2>Eye Care Services</h2>
+                          <p>Sed ut perspiciatis unde omiste natus error sit voluptaccusantium doloreue..</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col">
+                  <div class="single-dept text-center">
+                      <div class="dept-ico">
+                          <img src="./assets/img/icon-03.jpg" alt="">
+                      </div>
+                      <div class="dept-txt">
+                          <h2>General Surgery</h2>
+                          <p>Sed ut perspiciatis unde omiste natus error sit voluptaccusantium doloreue..</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col">
+                  <div class="single-dept text-center">
+                      <div class="dept-ico">
+                          <img src="./assets/img/icon-04.jpg" alt="">
+                      </div>
+                      <div class="dept-txt">
+                          <h2>Diagnostic Medicine</h2>
+                          <p>Sed ut perspiciatis unde omiste natus error sit voluptaccusantium doloreue..</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col">
+                  <div class="single-dept text-center">
+                      <div class="dept-ico">
+                          <img src="./assets/img/icon-05.jpg" alt="">
+                      </div>
+                      <div class="dept-txt">
+                          <h2>Infectious Diseases</h2>
+                          <p>Sed ut perspiciatis unde omiste natus error sit voluptaccusantium doloreue..</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="border my-5"></div>
+      </div>
+  </div>
+  <div class="portfolio-area align-items-center my-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-8">
+                <div class="team-head tagline">
+                    <h2>Meet the Team</h2>
+                    <p>Proin molestie, felis in pellentesque malesuada, quam ligula sagittis.</p>
                 </div>
-                <div class="col">
-                    <div class="single-dept text-center">
-                        <div class="dept-ico">
-                            <img src="./assets/img/icon-02.jpg" alt="">
-                        </div>
-                        <div class="dept-txt">
-                            <h2>Eye Care Services</h2>
-                            <p>Sed ut perspiciatis unde omiste natus error sit voluptaccusantium doloreue..</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="single-dept text-center">
-                        <div class="dept-ico">
-                            <img src="./assets/img/icon-03.jpg" alt="">
-                        </div>
-                        <div class="dept-txt">
-                            <h2>General Surgery</h2>
-                            <p>Sed ut perspiciatis unde omiste natus error sit voluptaccusantium doloreue..</p>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="single-portfolio">
+                            <h2>Dr. Keneia Henry</h2>
+                            <a href=""><img src="./assets/img/portflio-01.jpg" alt=""></a>
+                            <span>Intensive Care</span>
+                            <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit. Duisid nulla vel lorem dapibus fringilla eget non felis, porttitorlectus.</p>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="single-dept text-center">
-                        <div class="dept-ico">
-                            <img src="./assets/img/icon-04.jpg" alt="">
-                        </div>
-                        <div class="dept-txt">
-                            <h2>Diagnostic Medicine</h2>
-                            <p>Sed ut perspiciatis unde omiste natus error sit voluptaccusantium doloreue..</p>
+                    <div class="col-4">
+                        <div class="single-portfolio">
+                            <h2>Dr. Mark Orton</h2>
+                            <a href=""><img src="./assets/img/portflio-02.jpg" alt=""></a>
+                            <span>Intensive Care</span>
+                            <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit. Duisid nulla vel lorem dapibus fringilla eget non felis, porttitorlectus.</p>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="single-dept text-center">
-                        <div class="dept-ico">
-                            <img src="./assets/img/icon-05.jpg" alt="">
-                        </div>
-                        <div class="dept-txt">
-                            <h2>Infectious Diseases</h2>
-                            <p>Sed ut perspiciatis unde omiste natus error sit voluptaccusantium doloreue..</p>
+                    <div class="col-4">
+                        <div class="single-portfolio">
+                            <h2>Dr. Mery Katherine</h2>
+                            <a href=""><img src="./assets/img/portflio-03.jpg" alt=""></a>
+                            <span>Intensive Care</span>
+                            <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit. Duisid nulla vel lorem dapibus fringilla eget non felis, porttitorlectus.</p>
                         </div>
                     </div>
+                    <a href="" class="common">More Doctor </a>
+                    <a href="" class="common mx-2">More Doctors</a>                        
                 </div>
             </div>
-            <div class="border my-5"></div>
-        </div>
-    </div>
-    <!-- department End -->
-    <!-- portfolio Start -->
-    <div class="portfolio-area align-items-center my-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-8">
-                    <div class="team-head tagline">
-                        <h2>Meet the Team</h2>
-                        <p>Proin molestie, felis in pellentesque malesuada, quam ligula sagittis.</p>
+            <div class="col-4">
+                <div class="appointment-wrap">
+                    <div class="appointment py-3">
+                        <h2>Make an Appointment</h2>
+                        <h3><i class="fa-solid fa-phone"></i>1-800-123-4567</h3>
+                        <span>or</span>
+                    </div>
+                    <div class="appointment-form">
+                        <input type="text" placeholder="Full Name">
+                        <input type="text" placeholder="Phone Number">
+                        <input type="text" placeholder="Email Address">
                     </div>
                     <div class="row">
-                        <div class="col-4">
-                            <div class="single-portfolio">
-                                <h2>Dr. Keneia Henry</h2>
-                                <a href=""><img src="./assets/img/portflio-01.jpg" alt=""></a>
-                                <span>Intensive Care</span>
-                                <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit. Duisid nulla vel lorem dapibus fringilla eget non felis, porttitorlectus.</p>
-                            </div>
+                        <div class="col-8">
+                                <div id="head1">
+                                    <select id="gMonth1" class="form-select">
+                                        <option value="">--Month--</option>
+                                        <option selected="" value="1">Janaury</option>
+                                        <option value="2">February</option>
+                                        <option value="3">March</option>
+                                        <option value="4">April</option>
+                                        <option value="5">May</option>
+                                        <option value="6">June</option>
+                                        <option value="7">July</option>
+                                        <option value="8">August</option>
+                                        <option value="9">September</option>
+                                        <option value="10">October</option>
+                                        <option value="11">November</option>
+                                        <option value="12">December</option>
+                                    </select> 
+                                </div> 
                         </div>
                         <div class="col-4">
-                            <div class="single-portfolio">
-                                <h2>Dr. Mark Orton</h2>
-                                <a href=""><img src="./assets/img/portflio-02.jpg" alt=""></a>
-                                <span>Intensive Care</span>
-                                <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit. Duisid nulla vel lorem dapibus fringilla eget non felis, porttitorlectus.</p>
+                            <div class="head2">
+                                <select class="form-select" id="day" name="day">
+                                    <option value="">Day</option>
+                                    <option value="01">01</option>
+                                    <option value="02">02</option>
+                                    <option value="03">03</option>
+                                    <option value="04">04</option>
+                                    <option value="05">05</option>
+                                    <option value="06">06</option>
+                                    <option value="07">07</option>
+                                    <option value="08">08</option>
+                                    <option value="09">09</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                    <option value="13">13</option>
+                                    <option value="14">14</option>
+                                    <option value="15">15</option>
+                                    <option value="16">16</option>
+                                    <option value="17">17</option>
+                                    <option value="18">18</option>
+                                    <option value="19">19</option>
+                                    <option value="20">20</option>
+                                    <option value="21">21</option>
+                                    <option value="22">22</option>
+                                    <option value="23">23</option>
+                                    <option value="24">24</option>
+                                    <option value="25">25</option>
+                                    <option value="26">26</option>
+                                    <option value="27">27</option>
+                                    <option value="28">28</option>
+                                    <option value="29">29</option>
+                                    <option value="30">30</option>
+                                    <option value="31">31</option>
+                                </select>
                             </div>
                         </div>
-                        <div class="col-4">
-                            <div class="single-portfolio">
-                                <h2>Dr. Mery Katherine</h2>
-                                <a href=""><img src="./assets/img/portflio-03.jpg" alt=""></a>
-                                <span>Intensive Care</span>
-                                <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit. Duisid nulla vel lorem dapibus fringilla eget non felis, porttitorlectus.</p>
-                            </div>
-                        </div>
-                        <a href="" class="common">More Doctor </a>
-                        <a href="" class="common mx-2">More Doctors</a>                        
                     </div>
-                </div>
-                <div class="col-4">
-                    <div class="appointment-wrap">
-                        <div class="appointment py-3">
-                            <h2>Make an Appointment</h2>
-                            <h3><i class="fa-solid fa-phone"></i>1-800-123-4567</h3>
-                            <span>or</span>
-                        </div>
-                        <div class="appointment-form">
-                            <input type="text" placeholder="Full Name">
-                            <input type="text" placeholder="Phone Number">
-                            <input type="text" placeholder="Email Address">
-                        </div>
-                        <div class="row">
-                            <div class="col-8">
-                                    <div id="head1">
-                                        <select id='gMonth1' class="form-select">
-                                            <option value=''>--Month--</option>
-                                            <option selected value='1'>Janaury</option>
-                                            <option value='2'>February</option>
-                                            <option value='3'>March</option>
-                                            <option value='4'>April</option>
-                                            <option value='5'>May</option>
-                                            <option value='6'>June</option>
-                                            <option value='7'>July</option>
-                                            <option value='8'>August</option>
-                                            <option value='9'>September</option>
-                                            <option value='10'>October</option>
-                                            <option value='11'>November</option>
-                                            <option value='12'>December</option>
-                                        </select> 
-                                    </div> 
-                            </div>
-                            <div class="col-4">
-                                <div class="head2">
-                                    <select class="form-select" id="day" name="day">
-                                        <option value="">Day</option>
-                                        <option value="01">01</option>
-                                        <option value="02">02</option>
-                                        <option value="03">03</option>
-                                        <option value="04">04</option>
-                                        <option value="05">05</option>
-                                        <option value="06">06</option>
-                                        <option value="07">07</option>
-                                        <option value="08">08</option>
-                                        <option value="09">09</option>
-                                        <option value="10">10</option>
-                                        <option value="11">11</option>
-                                        <option value="12">12</option>
-                                        <option value="13">13</option>
-                                        <option value="14">14</option>
-                                        <option value="15">15</option>
-                                        <option value="16">16</option>
-                                        <option value="17">17</option>
-                                        <option value="18">18</option>
-                                        <option value="19">19</option>
-                                        <option value="20">20</option>
-                                        <option value="21">21</option>
-                                        <option value="22">22</option>
-                                        <option value="23">23</option>
-                                        <option value="24">24</option>
-                                        <option value="25">25</option>
-                                        <option value="26">26</option>
-                                        <option value="27">27</option>
-                                        <option value="28">28</option>
-                                        <option value="29">29</option>
-                                        <option value="30">30</option>
-                                        <option value="31">31</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="center">
-                            <select class="form-select">
-                                <option value=''>--Center--</option>
-                                <option selected value='1'>Dhaka</option>
-                                <option value='2'>Rajshahi</option>
-                                <option value='3'>Chattogram</option>
-                                <option value='4'>Dinajpur</option>
-                            </select> 
-                        </div> 
-                        <div class="btn-1">
-                            <button class="btn btn-primary">Submit</button>
-                        </div>
+                    <div id="center">
+                        <select class="form-select">
+                            <option value="">--Center--</option>
+                            <option selected="" value="1">Dhaka</option>
+                            <option value="2">Rajshahi</option>
+                            <option value="3">Chattogram</option>
+                            <option value="4">Dinajpur</option>
+                        </select> 
+                    </div> 
+                    <div class="btn-1">
+                        <button class="btn btn-primary">Submit</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- portfolio End -->
-    <!-- Footer Start -->
-    <footer class="bg-dark bg-gradient text-light py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-3">
-                    <div class="single-footer">
-                        <div class="logo-2 py-3">
-                            <a href=""><img src="./assets/img/logo-2.png" alt=""></a>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ab nostrum tempore, deserunt quisquam optio dolores assumenda eaque provident illum.</p>
-                        <div class="btn-1">
-                            <button class="btn btn-primary">Read More</button>
-                        </div>
-                    </div>
+</div>
+<section class="review">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="tagline">
+                    <h2>What our patients say</h2>
+                    <p>Proin molestie, felis in pellentesque malesuada, quam ligula sagittis.</p>
                 </div>
-                <div class="col-3">
-                    <div class="single-footer">
-                        <div class="logo-2 py-3">
-                            <h2>Medical</h2>
+                <div class="main-review">
+                    <!-- Carousel wrapper -->
+                    <div id="carouselExampleControls" class="carousel slide text-center carousel-dark" data-mdb-ride="carousel">
+                    <div class="carousel-inner">
+                    <div class="carousel-item active my-5">
+                        <img class="rounded-circle shadow-1-strong mb-4"
+                        src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="avatar"
+                        style="width: 150px;" />
+                        <div class="row d-flex justify-content-center">
+                        <div class="col-lg-8">
+                            <h5 class="mb-3">George Mansion</h5>
+                            <p class="link-secondary">Dermatology patient</p>
+                            <p class="text-muted">
+                            <i class="fas fa-quote-left pe-2"></i>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus et deleniti
+                            nesciunt sint eligendi reprehenderit reiciendis, quibusdam illo, beatae quia
+                            fugit consequatur laudantium velit magnam error. Consectetur distinctio fugit
+                            doloremque.
+                            </p>
                         </div>
+                        </div>
+                        <ul class="list-unstyled d-flex justify-content-center text-warning mb-0">
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                        <li><i class="fas fa-star fa-sm"></i></li>
+                        <li><i class="far fa-star fa-sm"></i></li>
+                        </ul>
                     </div>
-                </div>
-                <div class="col-3">
-                    <div class="single-footer">
-                        <div class="logo-2 py-3">
-                            <a href=""><img src="./assets/img/logo-2.png" alt=""></a>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ab nostrum tempore, deserunt quisquam optio dolores assumenda eaque provident illum.</p>
-                        <div class="btn-1">
-                            <button class="btn btn-primary">Read More</button>
-                        </div>
                     </div>
+                    <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleControls"
+                    data-mdb-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleControls"
+                    data-mdb-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <div class="col-3">
-                    <div class="single-footer">
-                        <div class="logo-2 py-3">
-                            <a href=""><img src="./assets/img/logo-2.png" alt=""></a>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ab nostrum tempore, deserunt quisquam optio dolores assumenda eaque provident illum.</p>
-                        <div class="btn-1">
-                            <button class="btn btn-primary">Read More</button>
-                        </div>
+                <!-- Carousel wrapper -->
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="tagline newsletter">
+                    <h2>Newsletter</h2>
+                    <p>Sign up our newsletter to get latest updates</p>
+                    <div class="newsletter-mail">
+                        <p class="link-secondary">Sign up for our weekly newsletter to receive updates, news, and promos:</p>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="email" placeholder="Email Address">
+                            <button class="btn btn-warning" type="submit"><img src="./assets/img/search.svg" alt=""></button>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
-    </footer>
-    <!-- footer End -->
+    </div>
+</section>
+<footer class="bg-dark bg-gradient text-light py-5">
+  <div class="container">
+      <div class="row">
+          <div class="col-3">
+              <div class="single-footer">
+                <div class="text-bg-secondary mb-3" style="max-width: 18rem;">
+                    <div class="card-header"><a href=""><img src="./assets/img/logo-2.png" alt=""></a></div>
+                    <div class="card-body py-3">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary common">Read more</a>
+                    </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-3">
+                <div class="list-group single-footer bg-0">
+                    <h2 href="#" class="list-group-item">
+                      Medical
+                    </h2>
+                    <a href="#" class="list-group-item list-group-item-action">- Clinics & Centers</a>
+                    <a href="#" class="list-group-item list-group-item-action">- Conditions & Treatments </a>
+                    <a href="#" class="list-group-item list-group-item-action">- Find a Doctor</a>
+                    <a href="#" class="list-group-item list-group-item-action">- For Patients & Families</a>
+                    <a href="#" class="list-group-item list-group-item-action">- Get My Medical Records</a>
+                    <a href="#" class="list-group-item list-group-item-action">- Medicare Plan Finder</a>
+                  </div>
+          </div>
+          <div class="col-3">
+                <div class="list-group single-footer bg-0">
+                    <h2 href="#" class="list-group-item">
+                      Quick Link
+                    </h2>
+                    <a href="#" class="list-group-item list-group-item-action">-  Careers</a>
+                    <a href="#" class="list-group-item list-group-item-action">-  Donate </a>
+                    <a href="#" class="list-group-item list-group-item-action">-  Get Directions & Hours</a>
+                    <a href="#" class="list-group-item list-group-item-action">-  Hospital News</a>
+                    <a href="#" class="list-group-item list-group-item-action">-  Packages & Promotions</a>
+                    <a href="#" class="list-group-item list-group-item-action">-  Research & Innovations</a>
+                </div>
+          </div>
+          <div class="col-3">
+                <div class="list-group single-footer bg-0">
+                    <h2 href="#" class="list-group-item">Location</h2>
+                    <p>Address will be appear here, some details here City Name, Stat & Country. </p>
+                    <span class="link-secondary text-dark-emphasis py-2">Ph. : +800 123 4567 </span>
+                    <span class="link-secondary text-dark-emphasis py-2">Email : info@healthpress.com </span>
+                </div>
+          </div>
+      </div>
+  </div>
+</footer>
+<section class="copyright">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="copyright-owner py-3">
+                    <p class="link-secondary">© Copyright 2012. All Rights Reserved by HealthPress.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="author py-3">
+                    <p class="link-secondary">Designed by Theme Designer. Developed by <a class="link-success" href="index.html">Md Ariful Islam</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+     <!-- JS End-->
 </body>
 </html>
